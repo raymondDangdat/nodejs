@@ -1,8 +1,18 @@
-const amount = 9;
-if(amount <10 ){
-    console.log('Small number');
-}else{
-    console.log("Large number");
-}
+// GLOBALS - NO WINDOW !!!!!!!
 
-console.log(`Hey it's me Dangdat on NodeJS matter`);
+// __dirname -path to current directory
+// __filename -file name
+// require -function to use modules (CommonJS)
+// module -info about current module (file)
+// process - info about env where the program is being executed
+
+// console.log(__dirname);
+// console.log(__filename);
+// console.log(require);
+// console.log(module);
+// console.log(process);
+
+// console.log(__dirname)
+// setInterval(() =>{
+//     console.log('Hello smart one')
+// }, 1000)
